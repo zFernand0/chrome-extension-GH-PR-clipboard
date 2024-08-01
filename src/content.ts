@@ -60,10 +60,6 @@ function showIndicator(button: HTMLElement) {
     // Fade out after 1 second
     setTimeout(() => {
         indicator.style.opacity = '0';
-        // Remove the indicator after transition
-        setTimeout(() => {
-            button.removeChild(indicator);
-        }, 500);
     }, 1000);
 }
 
@@ -73,7 +69,7 @@ function copyToClipboard(event: MouseEvent) {
     const parent = button.parentElement;
 
     if (parent) {
-        const textToCopy = parent.innerText;
+        const textToCopy = parent.innerText.split('\n')[0];
         navigator.clipboard.writeText(textToCopy).then(() => {
             showIndicator(button);
         }).catch(err => {
