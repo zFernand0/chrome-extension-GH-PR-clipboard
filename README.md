@@ -1,8 +1,9 @@
-# Chrome Extension TypeScript Starter
+# Copy-to-clipboard Chrome Extension for GiHub Pull Requests
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
+![build](https://github.com/zFernand0/chrome-extension-GH-PR-clipboard/workflows/build/badge.svg)
 
-Chrome Extension, TypeScript and Visual Studio Code
+
+This Chrome extension adds a copy-to-clipboard button next to file paths displayed in the GitHub Pull Requests description (default) tab, similar to the Files Changes tab.
 
 ## Prerequisites
 
