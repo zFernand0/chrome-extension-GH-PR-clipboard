@@ -2,7 +2,6 @@
 
 ![build](https://github.com/zFernand0/chrome-extension-GH-PR-clipboard/workflows/build/badge.svg)
 
-
 This Chrome extension adds a copy-to-clipboard button next to file paths displayed in the GitHub Pull Requests description (default) tab, similar to the Files Changes tab.
 
 ## Prerequisites
@@ -69,3 +68,9 @@ Load `dist` directory
 
 ## Test
 `npx jest` or `npm run test`
+
+
+---
+
+# Acknowledgements
+- Thanks to @t1m0thyj for the inspiration! 😋
