@@ -73,4 +73,4 @@ Load `dist` directory
 ---
 
 # Acknowledgements
-- Thanks to @t1m0thyj for the inspiration! 😋
+- Thanks to [@t1m0thyj](https://github.com/t1m0thyj) for the inspiration! 😋
