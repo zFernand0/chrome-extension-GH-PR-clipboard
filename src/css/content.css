@@ -1,0 +1,13 @@
+#copy-to-clipboard-button {
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #copy-to-clipboard-button:hover {
+    background-color: #218c3c;
+  }
