@@ -1,4 +1,4 @@
-# Copy-to-clipboard Chrome Extension for GiHub Pull Requests
+# PR PathClip
 
 ![build](https://github.com/zFernand0/chrome-extension-GH-PR-clipboard/workflows/build/badge.svg)
 

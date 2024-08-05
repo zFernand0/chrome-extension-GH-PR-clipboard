@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
 
-  "name": "Copy-to-clipboard for GiHub Pull Requests",
-  "description": "Copy-to-clipboard for GiHub Pull Requests",
-  "version": "1.0",
+  "name": "PR PathClip",
+  "description": "PR PathClip is a Chrome extension that adds a copy-to-clipboard button next to file paths displayed in the GitHub Pull Requests description (default) tab.",
+  "version": "1.0.2",
 
   "icons": {
-    "256": "res/icon.png"
+    "16": "res/icon16.png",
+    "32": "res/icon32.png",
+    "48": "res/icon48.png",
+    "128": "res/icon128.png"
   },
 
   "content_scripts": [
